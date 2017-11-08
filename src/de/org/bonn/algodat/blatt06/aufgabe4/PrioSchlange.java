@@ -1,0 +1,16 @@
+package de.org.bonn.algodat.blatt06.aufgabe4;
+
+public interface PrioSchlange<T> extends Sequenz<T> {
+
+	void insert(T v);
+	/**
+	 * @throws java.util.NoSuchElementException falls leer
+	 */
+	
+	T element();
+	/**
+	 * @throws java.util.NoSuchElementException falls leer
+	 */
+	
+	T remove();
+}
